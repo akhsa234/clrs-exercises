@@ -1,0 +1,17 @@
+
+server:
+  port: 5011
+spring:
+  datasource:
+    url: jdbc:h2:mem:testBlog
+
+    data-username: sa
+    driver-class-name: org.h2.Driver
+    data-password:
+  h2:
+    console:
+      path: /h2-console
+      enabled: true
+
+  jpa:
+    show-sql: true
